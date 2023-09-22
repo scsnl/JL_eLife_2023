@@ -10,7 +10,7 @@ clear,clc
 %% setting file path and loading data
 % setting project path
 addpath('DPABI_V4.2_190919');
-oak_path = 'pwd';
+oak_path = fullfile('2019_ASD_MathWhiz');
 
 % NRP calculation
 twogroup = {'ASD';'TD'};
