@@ -10,8 +10,6 @@ clear,clc
 box_path = 'pwd';
 addpath('figure code');
 
-box_path = fullfile(filesep,'Users','jinjin','Library','CloudStorage','Box-Box','Jin Liu','2019 ASD Learning Math Whizz');
-
 % setting behavioral data path
 load('info_sub63.mat'); % subjectlist of the project
 
