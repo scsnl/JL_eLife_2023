@@ -2,6 +2,8 @@ clear,clc
 %% set the file path
 box_path = 'pwd';
 oak_path = fullfile('2019_ASD_MathWhiz');
+addpath('DPABI_V4.2_190919');
+addpath('figure code');
 
 %% preparation parameters
 load('Image_sublist_pre_post.mat');
