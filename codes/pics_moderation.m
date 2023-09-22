@@ -1,6 +1,7 @@
 clear,clc
 %% set the file path
 box_path = 'pwd';    
+addpath('figure code');
 
 %% plot RRB on ACC-NRP
 load('moderation_RRB_ACC_NRP.mat');
